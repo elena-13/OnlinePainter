@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.settings-bar {
+  height: $toolbar-height;
+  top: $toolbar-height;
+  background-color: $toolbar-background-color;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  border: 2px solid #E0E0E0;
+}

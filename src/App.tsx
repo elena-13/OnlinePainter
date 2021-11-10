@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
+import Canvas from './components/Canvas/Canvas';
+import SettingsBar from './components/SettingsBar/SettingsBar';
+import Toolbar from './components/Toolbar/Toolbar';
+import './styles/index.scss';
 
 function App() {
   return (
-    <div className="App">
-      ura
+    <div className="app">
+      <Toolbar />
+      <SettingsBar/>
+      <Canvas/>
     </div>
   );
 }
